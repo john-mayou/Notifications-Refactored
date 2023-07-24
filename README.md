@@ -1,6 +1,6 @@
 # Notifications-Refactored
 
-I've decided that my implementation of notifications for our Prime group project was unreadable and did not scale well, so I've re-written it. Here is a brief explanation.
+I've decided that my implementation of notifications for our Prime group project was unreadable and did not scale well, so I've re-written it (new code is in this repo). Here is a brief explanation.
 
 This is a front-end implementation. If you choose to do this in the backend, this code can be repurposed with endpoint calls instead of dispatching to Redux. You would just send the id and click action ('accept' or 'reject'), then you can use the config to figure out what to do inside the end-point. You would then have to account for the message and button_text not being in the front end any longer. But anyways, whatever you prefer :)
 
